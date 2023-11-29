@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Quicksand:wght@400;500;700&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: Poppins, sans-serif;
     font-size: 15px;
-    margin: 0;
-    padding: 0;
 }
 
 .header {
@@ -33,8 +37,6 @@ body {
     display: flex;
     list-style-type: none;
     gap: 8px;
-    margin: 0;
-    padding: 0;
 }
 
 .nav-link a {
@@ -51,4 +53,74 @@ body {
 .product-img {
     width: 50%;
     height: auto;
+}
+
+.web-container .text {
+    color: #ffffff;
+}
+
+.text button {
+    background: #3882F6;
+    font-size: 15px;
+    margin-top: 6px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* For info section */
+
+.img-container .img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px;
+}
+
+.info-img-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-container p {
+    text-align: center;
+}
+
+/* For quote section */
+.quote-container {
+    background: #E5E7EB;
+    padding: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote cite {
+    font-size: 20px;
+}
+
+.quote p {
+    font-weight: 600;
+    align-self: flex-end;
 }
