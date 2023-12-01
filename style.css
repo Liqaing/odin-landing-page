@@ -11,17 +11,32 @@ body {
     font-size: 15px;
 }
 
-.header {
+.header, .footer{
     background: #1F2937;
     display: flex;
     justify-content: center;
 }
 
+
+/* Set width of content */
+.text button, .contact button {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.header-container, .info-img-container, .quote, .contact {
+    width: 70%;
+}
+
+/* Style button */
+
+
 /* For nav bar */
 
 .header-container {
     padding: 8px;
-    width: 70%;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -61,13 +76,9 @@ body {
 
 .text button {
     background: #3882F6;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
     margin-top: 6px;
     padding: 8px 16px;
     border: none;
-    border-radius: 8px;
 }
 
 /* For info section */
@@ -88,7 +99,6 @@ body {
 }
 
 .info-img-container {
-    width: 70%;
     display: flex;
     justify-content: space-around;
     gap: 24px;
@@ -113,7 +123,6 @@ body {
 }
 
 .quote {
-    width: 70%;
     display: flex;
     flex-direction: column;
 }
@@ -129,19 +138,14 @@ body {
 
 /* For contact section */
 
-
 .contact-container {
     padding: 45px;
     display: flex;
     justify-content: center;
 }
 
-.contact, .contact button {
-    color: #fff;
-}
-
 .contact {
-    width: 70%;
+    color: #fff;
     background: #2b75ed;
     padding: 32px 45px;
     border-radius: 5px;
@@ -151,19 +155,13 @@ body {
 }
 
 .contact button {
-    font-size: 15px;
-    font-weight: 600;
     padding: 6px 16px;
     background-color: transparent;
     border: 1px solid #fff;
-    border-radius: 8px;
 }
 
 /* For footer */
 .footer {
-    background: #1f2937;
     color: #fff;
     padding: 10px;
-    display: flex;
-    justify-content: center;
 }
