@@ -62,12 +62,13 @@ body {
 /* For content in header */
 .web-container {
     display: flex;
+    justify-content: space-between;
     gap: 30px;
 }
 
 .product-img {
-    width: 50%;
-    height: auto;
+    width: 500px;
+    height: 250px;
 }
 
 .web-container .text {
