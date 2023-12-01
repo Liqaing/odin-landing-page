@@ -61,7 +61,9 @@ body {
 
 .text button {
     background: #3882F6;
+    color: #fff;
     font-size: 15px;
+    font-weight: 600;
     margin-top: 6px;
     padding: 8px 16px;
     border: none;
@@ -123,4 +125,45 @@ body {
 .quote p {
     font-weight: 600;
     align-self: flex-end;
+}
+
+/* For contact section */
+
+
+.contact-container {
+    padding: 45px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact, .contact button {
+    color: #fff;
+}
+
+.contact {
+    width: 70%;
+    background: #2b75ed;
+    padding: 32px 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact button {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 6px 16px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 8px;
+}
+
+/* For footer */
+.footer {
+    background: #1f2937;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
 }
